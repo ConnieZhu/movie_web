@@ -4,11 +4,11 @@ Established a website that supports watching external content and internal video
 
 
 <h3>Main Programming Software:</h3>
- <ul> Python Django </ul>
+<li> Python Django </li>
 
- <ul> Html5 CSS Javascript </ul>
+<li> Html5 CSS Javascript </li>
 
- <ul> MySQL </ul>
+<li> MySQL </li>
 
 <h3>Screenshots from UI:</h3>
 
