@@ -1,0 +1,61 @@
+.video-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.span {
+    font-family: Chalkduster, fantasy;
+    font-size: 21px;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+.info {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.number-ul {
+    margin-bottom: 1rem;
+}
+
+.number-ul li {
+    display: inline-block;
+}
+
+.comment-area {
+    width: 95%;
+    margin-bottom: 100px;
+}
+
+.comment-area a {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.comment-area textarea{
+    width: 95%;
+    border: 1px solid #cccccc;
+    margin-left: 15px;
+    height: 5rem;
+    border-radius: 4px;
+    display: block;
+}
+
+.end {
+    padding-bottom: 10px;
+}
+
+#comment-submit {
+    margin-left: 15px;
+    border: 1px solid #cccccc;
+    padding: 0.2rem;
+    background: Snow;
+    font-family: Luminari, fantasy;
+    font-size: 12px;
+}

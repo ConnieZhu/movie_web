@@ -1,0 +1,35 @@
+.open-btn{
+    margin-left: 20px;
+}
+
+.add-video-area{
+    width: 75%;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    display: none;
+}
+
+.video-select{
+    width: 25%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.video-images{
+    width: 50px;
+
+}
+
+.info{
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#custom-h3 {
+    margin-top: 100px;
+}

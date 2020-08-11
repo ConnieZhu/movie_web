@@ -1,0 +1,27 @@
+<%inherit file="../base.html" />
+<%def name="content()">
+<%
+from django.shortcuts import reverse
+%>
+% if user:
+<h3 class="user-area">Had login. </h3><br />
+<h3 class="user-area1">💖 💖 💖 💖 💖 💖 💖 💖 💖<p> 💖 Welcome ${user.username}! 💖</p>💖 💖 💖 💖 💖 💖 💖 💖 💖</h3><br />
+<h3 class="user-area">To <a href="${reverse('client_logout')}">Logout</a> 😘</h3>
+
+% else:
+<div class="form">
+    <input id="username" type="text" placeholder="User Name" />
+    <input id="password" type="password" placeholder="Password" />
+    <button id="login-submit" data-url="${reverse('client_auth')}"> 🐾 Login 🐾</button>
+    <button id="regist-submit" data-url="${reverse('client_regist')}"> 🐾 Register 🐾</button>
+</div>
+% endif
+
+</%def>
+<%def name="js()">
+<script src="/static/client/js/auth.js"></script>
+</%def>
+
+<%def name="css()">
+<link href="/static/client/css/auth.css" rel="stylesheet" />
+</%def>
